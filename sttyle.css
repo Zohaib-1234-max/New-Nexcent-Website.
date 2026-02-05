@@ -289,7 +289,7 @@ h1 {
     width: 100%;
     height: 202px;
     display: flex;
-    padding: 44px 100px;
+    padding: 230px 100px;
     justify-content: space-between;
     padding-top: 100px;
 }
@@ -336,13 +336,13 @@ h1 {
 
 .numbers1 {
     display: flex;
-width: 360px;
-height: 200px;
-background-color: white;
-overflow: visible;
-justify-content: center;
-align-items: center;
-gap: 80px;
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
 .numbers1 .icon h2 {
@@ -361,7 +361,7 @@ gap: 80px;
     text-align: left;
 }
 
-.dog{
+.dog {
     display: flex;
     flex-direction: column;
     padding-right: 150px;
@@ -370,13 +370,13 @@ gap: 80px;
 
 .numbers2 {
     display: flex;
-width: 360px;
-height: 200px;
-background-color: white;
-justify-content: center;
-align-items: center;
-gap: 80px;
-overflow: visible;
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    overflow: visible;
 }
 
 .numbers2 .icon h2 {
@@ -395,26 +395,134 @@ overflow: visible;
     text-align: left;
 }
 
+.hero6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.hero6 button {
+    border-radius: 3px;
+    padding: 9px 22px;
+    border: transparent;
+    background-color: #4CAF4F;
+    color: white;
+    margin-top: 15px;
 
+}
 
+.hero6 h1 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 52px;
+    color: #201d1d;
+}
 
-/* Media Queries Start */
-@media screen and (min-width: 0px) and (max-width: 480px; ) {
-    .navlinks {
-        display: none;
-    }
+.hero7 {
+    width: 100%;
+    padding: 44px 114px;
+    background-color: #263238;
+    height: 230px;
+    margin-top: 20px;
+    display: flex;
+    gap: 110px;
 
-    .bitcho {
-        display: block;
-    }
+}
+
+.country {
+    display: flex;
+    gap: 66px;
+}
+
+.german {
+    width: 26vw;
+}
+
+.german h2 {
+    color: white;
+    padding: 10px;
+}
+
+.german img {
+    padding: 10px;
+}
+
+.german p {
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.france {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.france p {
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+
+}
+
+.france h3 {
+    padding-bottom: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.hungary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 11vw;
+}
+
+.hungary p {
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+
+}
+
+.hungary h3 {
+    padding-bottom: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.italy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 15vw;
+}
+
+.italy h3 {
+    padding-bottom: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.italy input{
+    padding: 10px;
+    width: 200px;
+    background-color: #796363;
+    border-radius: 3px;
+    border: transparent;
+
+}
+
+.sending{
+display: inline;
 }
 
 
-
-@media screen and (min-width: 481px) and (max-width: 768px; ) {
-    .navlinks {
-        display: block;
-    }
-
-}
